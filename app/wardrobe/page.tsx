@@ -17,7 +17,7 @@ const GalleryItem: React.FC<GalleryItemProps> = ({ image, text }) => (
       src={image}
       alt="Gallery"
     />
-    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white bg-black bg-opacity-70 p-4">
+    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-black bg-white border-s-black p-4">
       {text}
     </div>
   </div>
