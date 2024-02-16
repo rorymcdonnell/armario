@@ -17,9 +17,6 @@ export default function Home() {
       <button className="w-full md:w-1/3 p-4 border-solid border-2 border-black bg-gradient-to-r from-teal-500 to-yellow-500 text-white hover:opacity-80 rounded-md">
         Outfits
       </button>
-      <button className="w-full md:w-1/3 p-4 border-solid border-2 border-black bg-gradient-to-r from-teal-500 to-yellow-500 text-white hover:opacity-80 rounded-md">
-        Outfits
-      </button>
     </main>
   );
 }
